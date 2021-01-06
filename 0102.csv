@@ -1,0 +1,91 @@
+Date,Resort_Name,Region,Country,Pass,Snowfall,Lower_Depth,Middle_Depth,Upper_Depth
+2021-01-02,Afton Alps,Minnesota,United_States,EPIC,0,12,N/A,24
+2021-01-02,Alpe Cimbra - Folgaria - Lavarone,Trentino,Italy,EPIC,0,16,N/A,39
+2021-01-02,Alta Ski Area,Utah,United_States,IKON,0,38,N/A,38
+2021-01-02,Andalo - Fai della Paganella,Trentino,Italy,EPIC,0,59,53,24
+2021-01-02,Arapahoe Basin Ski Area,Colorado,United_States,IKON,0,31,31,31
+2021-01-02,Aspen Snowmass,Colorado,United_States,IKON,0,23,31,39
+2021-01-02,Bear Mountain,California,United_States,IKON,0,36,36,48
+2021-01-02,Beaver Creek,Colorado,United_States,EPIC,0,23,23,23
+2021-01-02,Big Sky,Montana,United_States,IKON,2,23,N/A,31
+2021-01-02,Blue Mountain,Ontario,Canada,IKON,0,14,14,14
+2021-01-02,Boyne Highlands,Michigan,United_States,IKON,0,40,N/A,40
+2021-01-02,Boyne Mountain Resort,Michigan,United_States,IKON,0,21,N/A,21
+2021-01-02,Breckenridge,Colorado,United_States,EPIC,0,27,27,27
+2021-01-02,Brides les Bains,Northern_Alps,France,EPIC,0,0,N/A,0
+2021-01-02,Brighton Resort,Utah,United_States,IKON,0,31,N/A,31
+2021-01-02,Copper Mountain,Colorado,United_States,IKON,0,25,25,25
+2021-01-02,Courchevel,Northern_Alps,France,EPIC,0,0,N/A,0
+2021-01-02,Crested Butte Mountain Resort,Colorado,United_States,EPIC,0,33,33,33
+2021-01-02,Crystal Mountain,Washington,United_States,IKON,0,44,59,59
+2021-01-02,Cypress Mountain,British_Columbia,Canada,IKON,4,73,N/A,110
+2021-01-02,Deer Valley Resort,Utah,United_States,IKON,0,22,22,22
+2021-01-02,Eldora Mountain Resort,Colorado,United_States,IKON,0,24,24,24
+2021-01-02,Falls Creek Alpine Resort,Australia,Australia,EPIC,0,0,N/A,0
+2021-01-02,Fernie Alpine,British_Columbia,Canada,EPIC,10,31,N/A,56
+2021-01-02,Folgàrida - Marilléva,Trentino,Italy,EPIC,0,N/A,N/A,N/A
+2021-01-02,Heavenly,California,United_States,EPIC,0,29,34,50
+2021-01-02,Jackson Hole,Wyoming,United_States,IKON,0,17,42,56
+2021-01-02,June Mountain,California,United_States,IKON,0,6,N/A,8
+2021-01-02,Keystone,Colorado,United_States,EPIC,0,25,25,25
+2021-01-02,Kicking Horse,British_Columbia,Canada,EPIC,0,71,165,171
+2021-01-02,Killington Resort,Vermont,United_States,IKON,3,24,24,24
+2021-01-02,Kimberley,British_Columbia,Canada,EPIC,1,16,20,24
+2021-01-02,Kirkwood,California,United_States,EPIC,0,33,28,28
+2021-01-02,La Tania,Northern_Alps,France,EPIC,0,0,N/A,0
+2021-01-02,Lake Louise,Alberta,Canada,IKON,0,38,N/A,49
+2021-01-02,Les Menuires,Northern_Alps,France,EPIC,0,14,N/A,20
+2021-01-02,Loon Mountain,New_Hampshire,United_States,IKON,7,18,N/A,24
+2021-01-02,Madonna di Campiglio,Trentino,Italy,EPIC,0,47,N/A,74
+2021-01-02,Mammoth Mountain,California,United_States,IKON,0,30,44,38
+2021-01-02,Meribel,Northern_Alps,France,EPIC,0,12,N/A,35
+2021-01-02,Mont Sainte Anne,Quebec,Canada,EPIC,1,47,51,51
+2021-01-02,Monte Bondone,Trentino,Italy,EPIC,0,24,N/A,47
+2021-01-02,Mount Sunapee,New_Hampshire,United_States,EPIC,1,18,18,18
+2021-01-02,Mt. Bachelor,Oregon,United_States,IKON,5,65,71,71
+2021-01-02,Mt. Brighton,Michigan,United_States,EPIC,1,26,28,28
+2021-01-02,Mt. Buller,Australia,Australia,IKON,0,0,N/A,0
+2021-01-02,Mt. Hotham,Australia,Australia,EPIC,0,0,0,0
+2021-01-02,Mt. Norquay,Alberta,Canada,IKON,0,34,N/A,34
+2021-01-02,Nakiska Ski Area,Alberta,Canada,EPIC,0,42,42,42
+2021-01-02,Nendaz,Valais,Switzerland,EPIC,0,16,N/A,47
+2021-01-02,Northstar California,California,United_States,EPIC,0,18,N/A,33
+2021-01-02,Okemo Mountain Resort,Vermont,United_States,EPIC,1,16,16,16
+2021-01-02,Orelle,Northern_Alps,France,EPIC,0,0,N/A,0
+2021-01-02,Park City,Utah,United_States,EPIC,0,20,N/A,23
+2021-01-02,Pejo,Trentino,Italy,EPIC,0,N/A,N/A,N/A
+2021-01-02,Perisher,Australia,Australia,EPIC,0,0,0,0
+2021-01-02,Pinzolo,Trentino,Italy,EPIC,0,16,47,67
+2021-01-02,Pontedilegno - Tonale,Trentino,Italy,EPIC,0,59,118,236
+2021-01-02,Revelstoke,British_Columbia,Canada,IKON,3,72,N/A,72
+2021-01-02,Saint Martin de Belleville,Northern_Alps,France,EPIC,0,0,N/A,0
+2021-01-02,Snow Summit,California,United_States,IKON,0,36,36,36
+2021-01-02,Snowbasin,Utah,United_States,EPIC,0,32,32,32
+2021-01-02,Snowbird,Utah,United_States,IKON,0,38,38,38
+2021-01-02,Snowshoe Mountain,West_Virginia,United_States,IKON,0,45,N/A,45
+2021-01-02,Solitude Mountain Resort,Utah,United_States,IKON,0,28,N/A,28
+2021-01-02,Squaw Valley Alpine Meadows,California,United_States,IKON,0,39,N/A,57
+2021-01-02,Steamboat,Colorado,United_States,IKON,0,N/A,25,37
+2021-01-02,Stevens Pass Resort,Washington,United_States,EPIC,0,69,80,88
+2021-01-02,Stoneham,Quebec,Canada,EPIC,2,12,12,12
+2021-01-02,Stowe Mountain,Vermont,United_States,EPIC,2,12,24,36
+2021-01-02,Stratton Mountain,Vermont,United_States,IKON,3,15,15,15
+2021-01-02,Sugarbush,Vermont,United_States,IKON,3,24,N/A,48
+2021-01-02,Sugarloaf,Maine,United_States,IKON,0,8,10,12
+2021-01-02,Sun Valley,Idaho,United_States,EPIC,1,32,34,37
+2021-01-02,Sunday River,Maine,United_States,IKON,2,12,12,12
+2021-01-02,Sunshine Village,Alberta,Canada,IKON,1,53,N/A,189
+2021-01-02,Taos Ski Valley,New_Mexico,United_States,IKON,0,38,52,N/A
+2021-01-02,Telluride,Colorado,United_States,EPIC,0,23,29,32
+2021-01-02,The Summit at Snoqualmie,Washington,United_States,IKON,0,69,69,100
+2021-01-02,Thredbo Alpine Resort,Australia,Australia,IKON,0,0,N/A,0
+2021-01-02,Thyon 2000,Valais,Switzerland,EPIC,0,16,N/A,47
+2021-01-02,Tremblant,Quebec,Canada,IKON,0,N/A,N/A,54
+2021-01-02,Vail,Colorado,United_States,EPIC,0,30,30,30
+2021-01-02,Val Thorens,Northern_Alps,France,EPIC,0,31,N/A,51
+2021-01-02,Verbier,Valais,Switzerland,EPIC,0,14,N/A,41
+2021-01-02,Veysonnaz,Valais,Switzerland,EPIC,0,16,N/A,47
+2021-01-02,Whistler Blackcomb,British_Columbia,Canada,EPIC,24,93,93,93
+2021-01-02,Wilmot Mountain,Wisconsin,United_States,EPIC,0,20,20,20
+2021-01-02,Windham Mountain,New_York,United_States,IKON,0,12,N/A,24
+2021-01-02,Winter Park,Colorado,United_States,IKON,0,37,N/A,37
