@@ -25,4 +25,4 @@ For people are that EPIC and IKON passholders. I have various versions of both p
 ![ScreenShot](/Screenshots/epic.png)
 
 
-Right now it is just a SQL database, but I hope to launch user-friendly page available to the public soon.
+Right now it is just a SQL database, but I hope to launch user-friendly page that will be available to the public soon.
