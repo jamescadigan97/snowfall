@@ -9,11 +9,11 @@ Skiing is my main winter hobby and this year I was fortunate enough to spend a w
 ## Examples of SQL queries
 Who will be a this page be for?
 
-For people who want to easily check on their favorite mountains. My personal favorite out West was Steamboat.
+For people who want to easily see seasonal data for their favorite mountains. One of my personal favorites is Steamboat.
 ![ScreenShot](/Screenshots/Steamboat.png)
 
 
-For people who check on storms in a certain area. A large storm hit on December 5th when I was in Colorado
+For people who check on past storms in a certain area. A large storm hit on January 5th when I was in Colorado.
 ![ScreenShot](/Screenshots/storm.png)
 
 
@@ -21,7 +21,7 @@ For people who what to check on snow in a particular area. I live in the New Eng
 ![ScreenShot](/Screenshots/Northeast.png)
 
 
-For people that have either the EPIC or IKON pass.
+For people are EPIC and IKON passholders. I have various versions of both passes.
 ![ScreenShot](/Screenshots/epic.png)
 
 
