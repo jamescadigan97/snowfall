@@ -13,11 +13,11 @@ For people who want to easily see seasonal data for their favorite mountains. On
 ![ScreenShot](/Screenshots/Steamboat.png)
 
 
-For people who check on past storms in a certain area. A large storm hit on January 5th when I was in Colorado.
+For people who want to check on past storms in a certain area. A large storm hit on January 5th when I was in Colorado.
 ![ScreenShot](/Screenshots/storm.png)
 
 
-For people who what to check on snow in a particular area. I live in the New England.
+For people who want to check on snow in a particular area. I live in the New England.
 ![ScreenShot](/Screenshots/Northeast.png)
 
 
