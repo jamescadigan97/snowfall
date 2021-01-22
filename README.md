@@ -25,4 +25,4 @@ For people who want to check on snow in a particular area. I live in the New Eng
 For people are that EPIC or IKON passholders (this particular query is for the EPIC pass, but a similar one can be made for the IKON pass.
 ![ScreenShot](/Screenshots/epic.png)
 
-These queries are from January th 2020 but are just meant to show the types of data I am interested in. I have been continuing to generate new data has since December 27th, 2020. Some of the smaller mountains only have data from January 10th 2021 and on, but now I am collecting data from every mountain listed on EPIC's and IKON's website. 
+These queries are from January 11th, 2020 but are just meant to show the types of data that I have been collecting. The most of the raw  data is in csv files in the snowfall folder on github. I have been continuing to generate new data has everyday since December 27th, 2020. Some of the smaller mountains only have data from January 10th, 2021 and on, but now I am collecting data from every mountain listed on EPIC's and IKON's website. I am currently working on launch an app to make it accessible to the public. 
