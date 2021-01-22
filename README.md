@@ -1,5 +1,5 @@
 # Snowfall and Snow Depth for EPIC and IKON Mountains
-Skiing is my main winter hobby and this year I was fortunate enough to spend a week skiing in Colorado. I created a python function on juypter notebook to scrape snowfall and snow depth data from onthesnow.com. I focused on the mountains that are on the EPIC and IKON ski passes. Pandas is utltized to organize the data. I am creating a database on PostgreSQL. After I collect a little more data, I will begin on launching an app that allows users to filter through the data. This project has allowed me to connect my love of skiing with my growing passion for data science.
+Skiing is my main winter hobby, but sometimes checking on the snow conditions for multiple mountains is a hassle. In order to streamline this process, I created a python function on juypter notebook to scrape snowfall and snow depth data from onthesnow.com. I focused on the mountains that are on the EPIC and IKON ski passes. Pandas is utltized to organize the data. I am creating a database on PostgreSQL. After I collect a little more data, I will begin launching an app that allows users to filter through the data. This project has allowed me to connect my love of skiing with my growing passion for data science.
 
 ## Tools and Resources
 * Python/Pandas
@@ -22,7 +22,7 @@ For people who want to check on snow in a particular area. I live in the New Eng
 ![ScreenShot](/Screenshots/Northeast.png)
 
 
-For people are that EPIC and IKON passholders.
+For people are that EPIC or IKON passholders (this particular query is for the EPIC pass, but a similar one can be made for the IKON pass.
 ![ScreenShot](/Screenshots/epic.png)
 
 I started collecting data starting December 26th, 2020 to the present day. Some of the smaller mountains were orginially not on that list; however I updated it on January 10th to include every mountain availible to ski on the EPIC and IKON pass. Right now it is just a SQL database, but I hope to launch user-friendly page that will be available to the public soon.
