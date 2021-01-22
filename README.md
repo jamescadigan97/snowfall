@@ -3,6 +3,7 @@ Skiing is my main winter hobby and this year I was fortunate enough to spend a w
 
 ## Tools and Resources
 * Python/Pandas
+* Selenium/Beautiful Soup
 * Jupyter notebook
 * PostgreSQL
 
@@ -24,5 +25,4 @@ For people who want to check on snow in a particular area. I live in the New Eng
 For people are that EPIC and IKON passholders.
 ![ScreenShot](/Screenshots/epic.png)
 
-
-Right now it is just a SQL database, but I hope to launch user-friendly page that will be available to the public soon.
+I started collecting data starting December 26th, 2020 to the present day. Some of the smaller mountains were orginially not on that list; however I updated it on January 10th to include every mountain availible to ski on the EPIC and IKON pass. Right now it is just a SQL database, but I hope to launch user-friendly page that will be available to the public soon.
