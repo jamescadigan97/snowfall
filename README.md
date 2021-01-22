@@ -25,4 +25,4 @@ For people who want to check on snow in a particular area. I live in the New Eng
 For people are that EPIC or IKON passholders (this particular query is for the EPIC pass, but a similar one can be made for the IKON pass.
 ![ScreenShot](/Screenshots/epic.png)
 
-I started collecting data starting December 26th, 2020 to the present day. Some of the smaller mountains were orginially not on that list; however I updated it on January 10th to include every mountain availible to ski on the EPIC and IKON pass. Right now it is just a SQL database, but I hope to launch user-friendly page that will be available to the public soon.
+These queries are from January th 2020 but are just meant to show the types of data I am interested in. I have been continuing to generate new data has since December 27th, 2020. Some of the smaller mountains only have data from January 10th 2021 and on, but now I am collecting data from every mountain listed on EPIC's and IKON's website. 
