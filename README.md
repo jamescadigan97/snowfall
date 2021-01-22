@@ -21,7 +21,7 @@ For people who want to check on snow in a particular area. I live in the New Eng
 ![ScreenShot](/Screenshots/Northeast.png)
 
 
-For people are that EPIC and IKON passholders. I have various versions of both passes.
+For people are that EPIC and IKON passholders.
 ![ScreenShot](/Screenshots/epic.png)
 
 
