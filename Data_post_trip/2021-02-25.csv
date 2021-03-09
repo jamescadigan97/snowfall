@@ -1,0 +1,67 @@
+Date,Resort_Name,Region,Country,Pass,Snowfall,Lower_Depth,Middle_Depth,Upper_Depth
+2021-02-25,Afton Alps,Minnesota,United_States,EPIC,0,12,N/A,24
+2021-02-25,Alpine Valley Resort,Wisconsin,United_States,EPIC,0,10,N/A,25
+2021-02-25,Arapahoe Basin Ski Area,Colorado,United_States,IKON,1,49,49,49
+2021-02-25,Attitash,New_Hampshire,United_States,EPIC,0,32,N/A,32
+2021-02-25,Beaver Creek,Colorado,United_States,EPIC,3,43,43,43
+2021-02-25,Big Boulder,Pennsylvania,United_States,EPIC,0,N/A,N/A,N/A
+2021-02-25,Big Sky,Montana,United_States,IKON,0,56,61,91
+2021-02-25,Blue Mountain,Ontario,Canada,IKON,0,N/A,N/A,45
+2021-02-25,Boston Mills,Ohio,United_States,EPIC,0,10,N/A,18
+2021-02-25,Boyne Highlands,Michigan,United_States,IKON,2,47,N/A,47
+2021-02-25,Boyne Mountain Resort,Michigan,United_States,IKON,1,48,N/A,48
+2021-02-25,Brandywine,Ohio,United_States,EPIC,0,10,N/A,18
+2021-02-25,Breckenridge,Colorado,United_States,EPIC,0,48,48,48
+2021-02-25,Brighton Resort,Utah,United_States,IKON,4,N/A,N/A,83
+2021-02-25,Coronet Peak,New_Zealand,New_Zealand,IKON,0,0,N/A,0
+2021-02-25,Crested Butte Mountain Resort,Colorado,United_States,EPIC,0,52,52,52
+2021-02-25,Crotched Mountain,New_Hampshire,United_States,EPIC,0,15,N/A,30
+2021-02-25,Crystal Mountain,Washington,United_States,IKON,0,104,153,153
+2021-02-25,Cypress Mountain,British_Columbia,Canada,IKON,6,101,N/A,175
+2021-02-25,Falls Creek Alpine Resort,Australia,Australia,EPIC,0,0,N/A,0
+2021-02-25,Heavenly,California,United_States,EPIC,0,44,54,70
+2021-02-25,Hidden Valley Resort,Pennsylvania,United_States,EPIC,0,42,N/A,54
+2021-02-25,Jack Frost,Pennsylvania,United_States,EPIC,0,24,N/A,30
+2021-02-25,June Mountain,California,United_States,IKON,0,42,N/A,60
+2021-02-25,Keystone,Colorado,United_States,EPIC,1,41,41,41
+2021-02-25,Kirkwood,California,United_States,EPIC,0,67,58,68
+2021-02-25,Liberty,Pennsylvania,United_States,EPIC,0,12,N/A,16
+2021-02-25,Loon Mountain,New_Hampshire,United_States,IKON,1,28,N/A,36
+2021-02-25,Mad River Mountain,Ohio,United_States,EPIC,0,N/A,N/A,24
+2021-02-25,Mammoth Mountain,California,United_States,IKON,0,60,105,100
+2021-02-25,Mount Snow,Vermont,United_States,EPIC,0,N/A,N/A,40
+2021-02-25,Mount Sunapee,New_Hampshire,United_States,EPIC,0,33,N/A,33
+2021-02-25,Mt. Brighton,Michigan,United_States,EPIC,0,35,35,35
+2021-02-25,Mt. Buller,Australia,Australia,IKON,0,0,N/A,0
+2021-02-25,Mt. Hotham,Australia,Australia,EPIC,0,0,0,0
+2021-02-25,Mt. Hutt Ski Area,New_Zealand,New_Zealand,IKON,0,0,N/A,0
+2021-02-25,Northstar California,California,United_States,EPIC,0,23,N/A,71
+2021-02-25,Okemo Mountain Resort,Vermont,United_States,EPIC,0,29,N/A,35
+2021-02-25,Paoli Peaks,Indiana,United_States,EPIC,0,18,N/A,36
+2021-02-25,Park City,Utah,United_States,EPIC,2,58,N/A,70
+2021-02-25,Perisher,Australia,Australia,EPIC,0,0,0,0
+2021-02-25,Revelstoke,British_Columbia,Canada,IKON,5,N/A,N/A,102
+2021-02-25,Roundtop Mountain Resort,Pennsylvania,United_States,EPIC,0,20,N/A,20
+2021-02-25,Snow Creek,Missouri,United_States,EPIC,0,20,N/A,20
+2021-02-25,Snowshoe Mountain,West_Virginia,United_States,IKON,0,58,N/A,58
+2021-02-25,Solitude Mountain Resort,Utah,United_States,IKON,5,N/A,N/A,74
+2021-02-25,Squaw Valley Alpine Meadows,California,United_States,IKON,0,69,113,N/A
+2021-02-25,Steamboat,Colorado,United_States,IKON,2,N/A,59,86
+2021-02-25,Stevens Pass Resort,Washington,United_States,EPIC,3,143,172,190
+2021-02-25,Stowe Mountain,Vermont,United_States,EPIC,4,30,40,60
+2021-02-25,Stratton Mountain,Vermont,United_States,IKON,0,24,24,24
+2021-02-25,Sugarbush,Vermont,United_States,IKON,1,48,N/A,72
+2021-02-25,Sugarloaf,Maine,United_States,IKON,1,22,25,28
+2021-02-25,Sunday River,Maine,United_States,IKON,0,22,N/A,48
+2021-02-25,Taos Ski Valley,New_Mexico,United_States,IKON,2,54,66,66
+2021-02-25,The Remarkables,New_Zealand,New_Zealand,IKON,0,0,N/A,0
+2021-02-25,The Summit at Snoqualmie,Washington,United_States,IKON,2,N/A,N/A,127
+2021-02-25,Thredbo Alpine Resort,Australia,Australia,IKON,0,0,N/A,0
+2021-02-25,Tremblant,Quebec,Canada,IKON,9,24,N/A,24
+2021-02-25,Vail,Colorado,United_States,EPIC,4,54,54,54
+2021-02-25,Valle Nevado,Chile,Chile,IKON,0,0,0,0
+2021-02-25,Whistler Blackcomb,British_Columbia,Canada,EPIC,5,100,100,100
+2021-02-25,Whitetail Resort,Pennsylvania,United_States,EPIC,0,32,N/A,32
+2021-02-25,Wildcat Mountain,New_Hampshire,United_States,EPIC,0,18,N/A,36
+2021-02-25,Wilmot Mountain,Wisconsin,United_States,EPIC,0,10,N/A,25
+2021-02-25,Winter Park,Colorado,United_States,IKON,0,N/A,N/A,56

@@ -1,19 +1,25 @@
 // from data.js
-d3.csv("/static/Data/full_data.csv", function(data){
+d3.csv("/Snowapp/static/Data/full_data.csv", function(data){
     console.log(data)
 
     var form = d3.select("form")
     var button = d3.select("button")
     
+    intialize_data = data
+
 //Set event
     button.on("click", filter_data);
     form.on("submit", filter_data);
 
 //Define function 
     function filter_data(){
+    
+    data = intialize_data
+
 
     //Prevent refreshing
     d3.event.preventDefault();
+
 
 // Filter by  Date    
     //Select first the value from the first input box
@@ -22,11 +28,11 @@ d3.csv("/static/Data/full_data.csv", function(data){
 
     //Filter by Date if there is a value
     if (inputValue.length > 0){
-        snow_filtered = data.filter(data => data.date === inputValue);
+        snow_filtered = intialize_data.filter(data => data.date === inputValue);
     }
     //Define unfo_unfiltered even if there is no date
     else {
-        snow_filtered = data.filter(data => data);
+        snow_filtered = intialize_data.filter(data => data);
     }
 
 //Filter by Resort
@@ -71,15 +77,28 @@ d3.csv("/static/Data/full_data.csv", function(data){
         snow_filtered = snow_filtered.filter(data => data.pass === inputValue5)
     }
 
-    var snow_formated = snow_filtered.map( data => data.date.Date.parse())
-    var snow_sorted = snow_filtered.sort(function (a,b){
-        return a.date - b.date
-    })
+    // var parseTime = d3.timeParse("%Y-%m-%d");
 
+    snow_filtered.forEach(function(data) {
+        // data.date = parseTime(data.date)
+        data.snowfall = +data.snowfall;
+        data.middle_depth = +data.middle_depth;
+        data.upper_depth = +data.upper_depth;
+        data.lower_depth = +data.lower_depth;
+      });
+
+
+    // snow_sorted = snow_filtered.sort((a, b) => a.date - b.date)
+
+    // snow_sorted.forEach(function(data) {
+    //     data.date = data.date.toString().slice(0,16)
+    //   });
+    
     //Clear previous array
     d3.select("tbody").html("")
 
-    snow_sorted.forEach((data) => {
+    // snow_sorted.forEach((data) => {
+    snow_filtered.forEach((data) => {
 
         //Select location for object 
         var row = d3.select("tbody").append("tr")
