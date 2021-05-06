@@ -1,5 +1,5 @@
 // from data.js
-d3.csv("/Snowapp/static/Data/full_data.csv", function(data){
+d3.csv("full_szn.csv", function(data){
     console.log(data)
 
     var form = d3.select("form")
@@ -82,18 +82,11 @@ d3.csv("/Snowapp/static/Data/full_data.csv", function(data){
     snow_filtered.forEach(function(data) {
         // data.date = parseTime(data.date)
         data.snowfall = +data.snowfall;
-        data.middle_depth = +data.middle_depth;
-        data.upper_depth = +data.upper_depth;
-        data.lower_depth = +data.lower_depth;
+        // data.middle_depth = +data.middle_depth;
+        // data.upper_depth = +data.upper_depth;
+        // data.lower_depth = +data.lower_depth;
       });
 
-
-    // snow_sorted = snow_filtered.sort((a, b) => a.date - b.date)
-
-    // snow_sorted.forEach(function(data) {
-    //     data.date = data.date.toString().slice(0,16)
-    //   });
-    
     //Clear previous array
     d3.select("tbody").html("")
 

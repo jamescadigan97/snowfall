@@ -1,4 +1,22 @@
 
+#snow_filter{
+  list-style-type: none;
+}
+ 
+ #snow_scroll{
+  max-height:50 px;
+  overflow: auto;
+} 
+
+#header{
+  text-shadow: 10px;
+  text-align: center;
+}
+
+#banner{
+  text-align: center;
+  font-size: 10px;
+}
 /* 
 @media (max-width: 800px) {
   #table-area td {

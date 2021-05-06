@@ -11,52 +11,176 @@
 </head>
 
 <body>
-
     <div class="container-fluid">
         <!-- The header starts here -->
         <div class="row">
             <div class="col-md-12">
                     <p>
-                        <h1>Snowfall Records for '20/'21 Season</h1>
-                        <i class="fas fa-home"></i>
+                        <h1 id="header">Snowfall Records for '20/'21 Season</h1>
+                        <!-- <i class="fas fa-home"></i> -->
                     </p>
             </div>
         </div>
-
+        <div class="container-fluid">
+            <!-- The header starts here -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="background">
+                        <img src="steam_boat.jpeg" class="stretch" alt="" style="width:100%;height: 210px; clip-path: rect(0px,50px,1000px,0px)">
+                    </div>
+                    <p id="banner">
+                        Steamboat: Chute 1
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div id="background">
+                        <img src="vail.jpeg" class="stretch" alt="" style="width:100%;height: 210px; clip-path: rect(0px,50px,1000px,0px)">
+                    </div>
+                    <p id="banner">
+                        Vail: Back Bowls
+                    </p>
+                </div>
+            </div>
+<br>
+<br>
 <!-- Table-->
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-2">
+        <div class="col-md-4">
             <form>
                 <ul>
-                    <li>
-                        <label for="1/1/2010">Enter Date</label>
+                    <li id="snow_filter">
+                        <label for="1/1/2010">Enter Date</label> <br>
                         <input id="datetime" type="text" placeholder="YYYY-MM-DD">
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <label for="1/1/2010">Enter Resort</label>
-                        <input id="resort" type="text" placeholder="Steamboat">
+                <ul id="snow_scroll">
+                    <li id="snow_filter">
+                        <label for="1/1/2010">Enter Resort</label> <br>
+                        <!-- <input id="resort" type="text" placeholder="Steamboat"> -->
+                        <input class="snow_scroll" id="resort" type="text" list="resortname">
+                        <datalist id="resortname">
+                            <option value="Afton Alps">
+                            <option value="Alpine Valley Resort">
+                            <option value="Arapahoe Basin Ski Area"> 
+                            <option value="Attitash">     
+                            <option value="Beaver Creek"> 
+                            <option value="Big Boulder">  
+                            <option value="Big Sky"> 
+                            <option value="Blue Mountain">     
+                            <option value="Boston Mills"> 
+                            <option value="Boyne Highlands">  
+                            <option value="Boyne Mountain Resort"> 
+                            <option value="Brandywine">  
+                            <option value="Breckenridge"> 
+                            <option value="Brighton Resort">  
+                            <option value="Coronet Peak"> 
+                            <option value="Crested Butte Mountain Resort">     
+                            <option value="Crotched Mountain"> 
+                            <option value="Crystal Mountain">  
+                            <option value="Cypress Mountain">  
+                            <option value="Falls Creek Alpine Resort">                                
+                            <option value="Heavenly">     
+                            <option value="Hidden Valley Resort"> 
+                            <option value="Jack Frost">
+                            <option value="June Mountain">
+                            <option value="Keystone">
+                            <option value="Kirkwood"> 
+                            <option value="Liberty">     
+                            <option value="Loon Mountain"> 
+                            <option value="Mad River Mountain">  
+                            <option value="Mammoth Mountain"> 
+                            <option value="Mount Snow">     
+                            <option value="Mount Sunapee"> 
+                            <option value="Mt. Brighton">  
+                            <option value="Mt. Buller"> 
+                            <option value="Mt. Hotham">     
+                            <option value="Mt. Hutt Ski Area"> 
+                            <option value="Northstar California">  
+                            <option value="Okemo Mountain Resort"> 
+                            <option value="Paoli Peaks">     
+                            <option value="Park City"> 
+                            <option value="Perisher">  
+                            <option value="Revelstoke">  
+                            <option value="Roundtop Mountain Resort"> 
+                            <option value="Snow Creek">     
+                            <option value="Snowshoe Mountain"> 
+                            <option value="Solitude Mountain Resort">
+                            <option value="Squaw Valley Alpine Meadows"> 
+                            <option value="Steamboat">     
+                            <option value="Stevens Pass Resort"> 
+                            <option value="Stowe Mountain">  
+                            <option value="Stratton Mountain"> 
+                            <option value="Sugarbush">     
+                            <option value="Sugarloaf"> 
+                            <option value="Sunday River">  
+                            <option value="Taos Ski Valley"> 
+                            <option value="The Remarkables'">     
+                            <option value="The Summit at Snoqualmie"> 
+                            <option value="Thredbo Alpine Resort">  
+                            <option value="Tremblant"> 
+                            <option value="Vail">     
+                            <option value="Valle Nevado'"> 
+                            <option value="Whistler Blackcomb">  
+                            <option value="Whitetail Resort">  
+                            <option value="Wildcat Mountain"> 
+                            <option value="Wilmot Mountain">     
+                            <option value="Winter Park"> 
+                        </datalist>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <label for="1/1/2010">Enter Region</label>
-                        <input id="region" type="text" placeholder="Colorado">
+                    <li id="snow_filter">
+                        <label for="1/1/2010">Enter Region</label> <br>
+                        <!-- <input id="region" type="text" placeholder="Colorado"> -->
+                        <input  id="region" type="text" list="regionname">
+                        <datalist id="regionname">
+                            <option value="Wisconsin">
+                            <option value="Australia"> 
+                            <option value="British_Columbia">     
+                            <option value="California"> 
+                            <option value="Colorado">  
+                            <option value="Chile"> 
+                            <option value="Indiana">     
+                            <option value="Maine"> 
+                            <option value="Michigan">  
+                            <option value="Minnesota">
+                            <option value="Missouri"> 
+                            <option value="Montana">     
+                            <option value="New_Hampshire"> 
+                            <option value="New_Mexico">  
+                            <option value="New_Zealand"> 
+                            <option value="Ohio'">     
+                            <option value="Ontario"> 
+                            <option value="Pennsylvania">  
+                            <option value="Quebec"> 
+                            <option value="Utah"> 
+                            <option value="Vermont">
+                            <option value="Washington">  
+                            <option value="West_Virginia"> 
+                        </datalist>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <label for="1/1/2010">Enter Country</label>
-                        <input  id="country" type="text" placeholder="United States">
+                    <li id="snow_filter">
+                        <label for="1/1/2010">Enter Country</label> <br>
+                        <input  id="country" type="text" list="countryname">
+                        <datalist id="countryname">
+                            <option value="United_States">
+                            <option value="Canada">
+                            <option value="Australia">
+                            <option value="New_Zealand">
+                            <option value="Chile">
+                          </datalist>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <label for="1/1/2010">Enter Pass</label>
-                        <input id="pass" type="text" placeholder="IKON">
-                    </li>
+                    <label > Select Pass</label> <br>
+                    <input type="text" id="pass" list="passname">
+                    <datalist id="passname">
+                      <option value="EPIC">
+                      <option value="IKON">
+                    </datalist>
                 </ul>
                 <!-- <ul>
                     <li>
@@ -67,20 +191,20 @@
                 <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
             </form>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-8">
             <div id="table-area" class="">
                 <table class="table table-striped">
                     <thead>
                       <tr>
                         <th class="table-head">Date</th>
-                        <th class="table-head">Pass</th>
                         <th class="table-head">Resort</th>
                         <th class="table-head">Region</th>
                         <th class="table-head">Country</th>
+                        <th class="table-head">Pass</th>
                         <th class="table-head">Snowfall</th>
-                        <th class="table-head">Lower Depth</th>
+                        <!-- <th class="table-head">Lower Depth</th>
                         <th class="table-head">Middle Depth</th>
-                        <th class="table-head">Upper Depth</th>
+                        <th class="table-head">Upper Depth</th> -->
                       </tr>
                     </thead>
                     <tbody>
@@ -102,7 +226,7 @@
                   <br>
  
                   The data is taken from onthesnow.com snow reports. For most mountains, it starts on December 27th 2020; 
-                  however for some mountains it starts on January 10th 2021. The data covers the mountains listed on 
+                  however for some mountains it starts on January 10th 2021. The data runs until April 1st, 2021. The data covers the mountains listed on 
                   EPIC's and IKON's website. This page is not affiliated with EPIC pass, IKON pass or onthesnow.com . 
               </p>
         </div>
