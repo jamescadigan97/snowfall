@@ -6,19 +6,20 @@
   <title>Cadigan Snowfall</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
   <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
+<div id="background">
     <div class="container-fluid">
         <!-- The header starts here -->
         <div class="row">
             <div class="col-md-12">
-                    <p>
-                        <h1 id="header">Snowfall Records for '20/'21 Season</h1>
+                <p>
+                    <h1 id="header">Snowfall Records for '20/'21 Season</h1>
                         <!-- <i class="fas fa-home"></i> -->
-                    </p>
+                </p>
             </div>
         </div>
         <div class="container-fluid">
@@ -41,24 +42,42 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
 <br>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-2">
+            <!--Column-->
+        </div>
+        <div class="col-md-8">
+            Enter data for one or multiple of the fields and then click the "Filter"
+            button. For Date data, please enter the date in YYYY-MM-DD format. Dates range from December 27th 2020 through
+            April 1st 2021. For the rest of the fields, please start typing the search criteria in the box and click
+            on the desired option.
+        </div>
+        <div class="col-md-2">
+             <!--Column-->
+        </div>
+    </div>
+</div>
 <br>
 <!-- Table-->
-    <div class="container">
-      <div class="row margin-top-50">
-        <div class="col-md-4">
-            <form>
-                <ul>
-                    <li id="snow_filter">
-                        <label for="1/1/2010">Enter Date</label> <br>
-                        <input id="datetime" type="text" placeholder="YYYY-MM-DD">
-                    </li>
-                </ul>
-                <ul id="snow_scroll">
-                    <li id="snow_filter">
-                        <label for="1/1/2010">Enter Resort</label> <br>
-                        <!-- <input id="resort" type="text" placeholder="Steamboat"> -->
-                        <input class="snow_scroll" id="resort" type="text" list="resortname">
+<div class="container">
+  <div class="row margin-top-50">
+    <div class="col-md-4">
+        <form>
+            <ul>
+                <li id="snow_filter">
+                    <label for="1/1/2010">Enter Date</label> <br>
+                    <input id="datetime" type="text" placeholder="YYYY-MM-DD">
+                </li>
+            </ul>
+            <ul id="snow_scroll">
+                <li id="snow_filter">
+                    <label for="1/1/2010">Enter Resort</label> <br>
+                        <input class="snow_scroll" id="resort" type="text" list="resortname" placeholder="Steamboat">
                         <datalist id="resortname">
                             <option value="Afton Alps">
                             <option value="Alpine Valley Resort">
@@ -124,7 +143,7 @@
                             <option value="Whistler Blackcomb">  
                             <option value="Whitetail Resort">  
                             <option value="Wildcat Mountain"> 
-                            <option value="Wilmot Mountain">     
+                            <option value="Wilmot Mountain">
                             <option value="Winter Park"> 
                         </datalist>
                     </li>
@@ -133,7 +152,7 @@
                     <li id="snow_filter">
                         <label for="1/1/2010">Enter Region</label> <br>
                         <!-- <input id="region" type="text" placeholder="Colorado"> -->
-                        <input  id="region" type="text" list="regionname">
+                        <input  id="region" type="text" list="regionname" placeholder="Colorado">
                         <datalist id="regionname">
                             <option value="Wisconsin">
                             <option value="Australia"> 
@@ -164,19 +183,19 @@
                 <ul>
                     <li id="snow_filter">
                         <label for="1/1/2010">Enter Country</label> <br>
-                        <input  id="country" type="text" list="countryname">
+                        <input  id="country" type="text" list="countryname" placeholder="United_States">
                         <datalist id="countryname">
                             <option value="United_States">
                             <option value="Canada">
                             <option value="Australia">
                             <option value="New_Zealand">
                             <option value="Chile">
-                          </datalist>
+                        </datalist>
                     </li>
                 </ul>
                 <ul>
                     <label > Select Pass</label> <br>
-                    <input type="text" id="pass" list="passname">
+                    <input type="text" id="pass" list="passname" placeholder="IKON">
                     <datalist id="passname">
                       <option value="EPIC">
                       <option value="IKON">
@@ -215,25 +234,27 @@
         </div>
       </div>
     </div>
-
+    <br><br>
     <div class="container">
         <div class="row margin-top-50">
           <div class="col-md-1">
+              <!--Columns-->
           </div>
           <div class="col-md-10">
               <p>
-                  About the Data:
-                  <br>
- 
-                  The data is taken from onthesnow.com snow reports. For most mountains, it starts on December 27th 2020; 
-                  however for some mountains it starts on January 10th 2021. The data runs until April 1st, 2021. The data covers the mountains listed on 
-                  EPIC's and IKON's website. This page is not affiliated with EPIC pass, IKON pass or onthesnow.com . 
+                About the Data:
+              <br>
+                The data is taken from onthesnow.com snow reports. For most mountains, it starts on December 27th 2020; 
+                however for some mountains it starts on January 10th 2021. The data runs until April 1st, 2021. The data covers the mountains listed on 
+                EPIC's and IKON's website. This page is not affiliated with EPIC pass, IKON pass or onthesnow.com . 
               </p>
-        </div>
-          <div class="col-md-1">
-        </div>
+            </div>
+            <div class="col-md-1">
+                <!--Columns-->
+            </div>
         </div>
     </div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 <script src="static/js/data.js"></script>
 <script src="static/js/app.js"></script> 

@@ -1,28 +1,34 @@
 # Snowfall and Snow Depth for EPIC and IKON Mountains
-Skiing is my main winter hobby, but sometimes checking on the snow conditions for multiple mountains is a hassle. In order to streamline this process, I created a python function on juypter notebook to scrape snowfall and snow depth data from onthesnow.com. I focused on the mountains that are on the EPIC and IKON ski passes. Pandas is utltized to organize the data. I am creating a database on PostgreSQL. After I collect a little more data, I will begin launching an app that allows users to filter through the data. This project has allowed me to connect my love of skiing with my growing passion for data science.
+Anyone who knows me well, knows I love skiing. This winter I took the opportunity to collect data on skiing, namely snowfall data. I created a python function utilizing both Selenium and Beautiful Soup to scrape snowfall and snow depth data from onthesnow.com. I focused on the mountains that are on the EPIC and IKON ski passes. After collecting the data, I used PostgreSQL to merge the data and Pandas to clean it. After I had my database I launched the website using Heroku. The website uses JavaScript to sort through the data and presents the data that corresponds with the users search criteria.
 
 ## Tools and Resources
-* Python/Pandas
-* Selenium/Beautiful Soup
-* Jupyter notebook
+* Python
+* Selenium
+* Beautiful Soup
 * PostgreSQL
+* Pandas
+* HTML/CSS
+* JavaScript
+* Heroku
 
-## Examples of SQL queries
-Who will be a this page be for?
+## Lauched App
 
-For people who want to easily see seasonal data for their favorite mountains. One of my personal favorites is Steamboat.
+## Loading page and examples of Searches
+Page the website goes to when it loads
+![ScreenShot](/Screenshots/main_page.png)
+
+Seasonal data for specific mountains. This example shows the result for searching "Steamboat".
 ![ScreenShot](/Screenshots/Steamboat.png)
 
 
-For people who want to check on past storms in a certain area. A large storm hit on January 5th when I was in Colorado.
+Specific Storms. This example shows the result for searching "Colorado" and "2021-01-06".
 ![ScreenShot](/Screenshots/storm.png)
 
 
-For people who want to check on snow in a particular area. I live in the New England.
-![ScreenShot](/Screenshots/Northeast.png)
-
-
-For people are that EPIC or IKON passholders (this particular query is for the EPIC pass, but a similar one can be made for the IKON pass.
+Specific passes. This example shows the result for searching "epic".
 ![ScreenShot](/Screenshots/epic.png)
 
-These queries are from January 11th, 2020 but are just meant to show the types of data that I have been collecting. The most of the raw  data is in csv files in the snowfall folder on github. I have been continuing to generate new data has everyday since December 27th, 2020. Some of the smaller mountains only have data from January 10th, 2021 and on, but now I am collecting data from every mountain listed on EPIC's and IKON's website. I am currently working on launch an app to make it accessible to the public. 
+These are a few examples. The data can be broken into any combination of date, ski resort, region and pass.
+
+##About the data
+The data is taken from onthesnow.com snow reports. For most mountains, it starts on December 27th 2020; however for some mountains it starts on January 10th 2021. The data runs until April 1st, 2021. The data covers the mountains listed on EPIC's and IKON's website. This page is not affiliated with EPIC pass, IKON pass or onthesnow.com .

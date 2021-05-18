@@ -17,6 +17,12 @@
   text-align: center;
   font-size: 10px;
 }
+
+body{
+  color: rgb(247, 247, 234);
+  background-color: #aec6cf;
+  /* background-color: #779ecb */
+}
 /* 
 @media (max-width: 800px) {
   #table-area td {
