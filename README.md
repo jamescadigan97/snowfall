@@ -30,5 +30,5 @@ Specific passes. This example shows the result for searching "epic".
 
 These are a few examples. The data can be broken into any combination of date, ski resort, region and pass.
 
-##About the data
+## About the data
 The data is taken from onthesnow.com snow reports. For most mountains, it starts on December 27th 2020; however for some mountains it starts on January 10th 2021. The data runs until April 1st, 2021. The data covers the mountains listed on EPIC's and IKON's website. This page is not affiliated with EPIC pass, IKON pass or onthesnow.com .
