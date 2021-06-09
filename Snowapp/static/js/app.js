@@ -1,5 +1,6 @@
 // from data.js
-d3.csv("full_szn.csv", function(data){
+d3.csv("../static/Data/full_szn.csv", function(data){
+    console.log("JS has loaded")
     console.log(data)
 
     var form = d3.select("form")
